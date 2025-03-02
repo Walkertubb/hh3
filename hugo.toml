@@ -1,8 +1,8 @@
 # Site settings
-baseURL = "https://example.com"
+baseURL = "https://kzeezclothing.com"
 languageCode = "en-US"
-title = "Split - HTML Template Demo"
-theme = "hugo-split-theme"
+title = "KZeez Clothing"
+# theme = "hugo-split-theme"
 disableKinds = ["section", "taxonomy", "RSS", "sitemap"]
 disableHugoGeneratorInject = true
 
@@ -11,7 +11,7 @@ relativeURLs = true
 uglyURLs = true
 
 # Copyright
-copyright = "&copy;2024 Your Name"
+copyright = "&copy;2025 Walker Tubb"
 
 [services]
   [services.googleAnalytics]
@@ -21,13 +21,15 @@ copyright = "&copy;2024 Your Name"
 [params]
 
   # Metadata for search engines and social sharing
-  author = "Jenny Jones"
-  description = "Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content."
+  author = "KZees Clothing"
+  description = "Women and Men's apperal, modern, vintage and live auctions"
   shareImage = "images/social.jpg"
-  twitterHandle = "onepagelove"
+  twitterHandle = "onepagelove"  
 
-  # Whether you purchased the license from the author.
-  licensed = false
+
+
+# Whether you purchased the license from the author.
+  licensed = true
 
   # Favicon
   favicon = "favicon.ico"
@@ -42,31 +44,36 @@ copyright = "&copy;2024 Your Name"
       position = "center center"
 
     # Video
+    # Video
     [params.visual.video]
       enable = true
       mute = true
-      file = "videos/background.mp4"
-      # youtubeId = "dk9uNWPP7EA"
+     # file = "videos/background.mp4"
+       youtubeId = "Sg35CYuU_-A"
 
-  # Links
-  #
-  # Links List #1
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = '0.111.0'
+
+  # The original template is rel # Links List #1
   [[params.links]]
     [params.links.list1]
-      heading = "Connect"
+      heading = "Ways to Shop"
 
       [[params.links.list1.link]]
-        text = "Blog"
+        text = "WhatNot"
         url = "#"
         new_tab = true # new tab
 
       [[params.links.list1.link]]
-        text = "Email"
+        text = "Online Store"
         url = "#"
         new_tab = false # Default, open at same tab
 
       [[params.links.list1.link]]
-        text = "Newsletter"
+        text = "Posh Mark"
         url = "#"
 
   # Links List #2
@@ -101,15 +108,8 @@ copyright = "&copy;2024 Your Name"
 
       [[params.links.list3.link]]
         text = "Link Three"
-        url = "#"
-
-[module]
-  [module.hugoVersion]
-    extended = true
-    min = '0.111.0'
-
-  # The original template is released under the Creative Commons Attribution 3.0 License.
-  # Please keep the original attribution link when using for your own project.
+  
+# Please keep the original attribution link when using for your own project.
   # If you'd like to use the template without the attribution, you can check out
   # the license option via the template author's website: https://onepagelove.com/split
 
