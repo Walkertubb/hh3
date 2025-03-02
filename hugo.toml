@@ -103,6 +103,11 @@ copyright = "&copy;2024 Your Name"
         text = "Link Three"
         url = "#"
 
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = '0.111.0'
+
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.
   # If you'd like to use the template without the attribution, you can check out
