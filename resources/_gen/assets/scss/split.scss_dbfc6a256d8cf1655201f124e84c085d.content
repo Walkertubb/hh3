@@ -2236,8 +2236,8 @@ a {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  background-image: none;
-  background-position: 0% 0%;
+  background-image: url("../images/logo.png");
+  background-position: center center;
   background-size: cover;
   -o-object-fit: cover;
   object-fit: cover; }

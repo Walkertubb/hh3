@@ -39,17 +39,17 @@ copyright = "&copy;2025 Walker Tubb"
 
     # Image
     [params.visual.image]
-      enable = false
-      file = "images/background.jpg"
+      enable = true
+      file = "images/logo.png"
       position = "center center"
 
     # Video
     # Video
     [params.visual.video]
-      enable = true
+      enable = false
       mute = true
-     # file = "videos/background.mp4"
-       youtubeId = "Sg35CYuU_-A"
+     file = "videos/background.mp4"
+     #  youtubeId = "Sg35CYuU_-A"
 
 
 [module]
@@ -112,6 +112,10 @@ copyright = "&copy;2025 Walker Tubb"
 # Please keep the original attribution link when using for your own project.
   # If you'd like to use the template without the attribution, you can check out
   # the license option via the template author's website: https://onepagelove.com/split
+
+[params.custom.css]
+  enable = true
+
 
 [server]
 [[server.headers]]
